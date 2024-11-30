@@ -1,0 +1,40 @@
+/* Navbar  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+}
+
+nav ul {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav,.nav-search {
+  display: flex;
+  align-items: center;
+}
+
+.nav-search input {
+  width: 20rem;
+  height: 1.5rem;
+}
+
+.nav-search button {
+  border-top-right-radius: 35%;
+  height: 1.9rem;
+}
+/*  */
